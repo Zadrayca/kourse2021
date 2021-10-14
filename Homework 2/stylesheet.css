@@ -1,0 +1,28 @@
+ul {
+    color: chocolate;
+    background: blue;
+}
+ol {
+    color: brown;
+    background: aqua;
+}
+p#z {
+    color: #a20404;
+}
+p#a {
+    color: darkblue;
+}
+.yyy {
+    background: cyan;
+}
+.zzz {
+    color: #110d0d;
+    background: #892fc5;
+}
+.ii {
+    width: 350px;
+    border: 25px solid #e04807;
+}
+.p {
+    width: 30px;
+}
