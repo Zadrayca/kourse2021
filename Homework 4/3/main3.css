@@ -1,0 +1,43 @@
+.father {
+    background: gray;
+    width: 800px;
+    height: 900px;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mother {
+    height: 25%;
+    flex-basis: 30%;
+    flex-grow: 5;
+    row-gap: 20px;
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box{
+    margin: 20px;
+}
+.a {
+    flex-basis: 90%;
+    height: 20%;
+    background: #c60505;
+    flex-grow: 5;
+}
+.c {
+    background: cornflowerblue;
+    height: 80%;
+    flex-basis: 25%;
+    flex-grow: 2;
+}
+.e {
+    background: blue;
+    flex-basis: 90%;
+    height: 40%;
+    flex-grow: 5;
+}

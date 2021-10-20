@@ -1,0 +1,35 @@
+.father {
+    background: gray;
+    width: 1000px;
+    height: 800px;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box{
+    flex-basis: 100px;
+    height: 300px;
+    margin: 20px;
+}
+
+
+.a {
+    flex-basis: 900px;
+    height: 200px;
+    background: #c60505;
+    flex-grow: 5;
+}
+
+.b {
+    background: #16be09;
+    height: 500px;
+    flex-grow: 4;
+}
+
+.c {
+    background: cornflowerblue;
+    height: 500px;
+    flex-grow: 1;
+}

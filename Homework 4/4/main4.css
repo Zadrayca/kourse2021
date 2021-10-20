@@ -1,0 +1,51 @@
+.father {
+    background: gray;
+    width: 800px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mother {
+    height: 60%;
+    flex-basis: 90%;
+    flex-grow: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box{
+    /*margin: 20px;*/
+}
+.a {
+    flex-basis: 90%;
+    height: 15%;
+    background: #c60505;
+    flex-grow: 5;
+}
+.b {
+    flex-basis: 90%;
+    height: 10%;
+    background: #11c4b5;
+    flex-grow: 5;
+}
+.c {
+    background: cornflowerblue;
+    height: 100%;
+    flex-basis: 60%;
+    flex-grow: 4;
+}
+.d {
+    background: #55b94f;
+    height: 100%;
+    flex-basis: 10%;
+    flex-grow: 1;
+}
+.e {
+    background: blue;
+    flex-basis: 90%;
+    height: 15%;
+    flex-grow: 5;
+}
