@@ -1,0 +1,31 @@
+.father {
+    background: gray;
+    width: 600px;
+    height: 800px;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.box{
+    margin: 0px;
+}
+.header {
+    flex-basis: 40%;
+    height: 43%;
+    background: #c60505;
+    flex-grow: 3;
+}
+.main {
+    background: #d33d78;
+    height: 28%;
+    flex-basis: 90%;
+    flex-grow: 6;
+}
+.footer__box {
+    background: blue;
+    flex-basis: 25%;
+    height: 23%;
+    flex-grow: 2;
+}

@@ -1,0 +1,40 @@
+.main__box {
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.father {
+    background: gray;
+    width: 800px;
+    height: 900px;
+    justify-content: center;
+}
+.mother {
+    height: 25%;
+    flex-basis: 30%;
+    flex-grow: 5;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    margin: 20px;
+}
+.header {
+    flex-basis: 90%;
+    height: 20%;
+    background: #c60505;
+    flex-grow: 5;
+}
+.widget {
+    background: cornflowerblue;
+    height: 80%;
+    flex-basis: 25%;
+    flex-grow: 2;
+}
+.contact {
+    background: blue;
+    flex-basis: 90%;
+    height: 40%;
+    flex-grow: 5;
+}

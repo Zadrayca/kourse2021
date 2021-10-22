@@ -1,0 +1,50 @@
+.main__box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.father {
+    background: gray;
+    width: 800px;
+    height: 900px;
+}
+.mother {
+    height: 60%;
+    flex-basis: 90%;
+    flex-grow: 5;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box{
+    /*margin: 20px;*/
+}
+.header {
+    flex-basis: 90%;
+    height: 15%;
+    background: #c60505;
+    flex-grow: 5;
+}
+.nav {
+    flex-basis: 90%;
+    height: 10%;
+    background: #11c4b5;
+    flex-grow: 5;
+}
+.main {
+    background: cornflowerblue;
+    height: 100%;
+    flex-basis: 60%;
+    flex-grow: 4;
+}
+.aside {
+    background: #55b94f;
+    height: 100%;
+    flex-basis: 10%;
+    flex-grow: 1;
+}
+.footer {
+    background: blue;
+    flex-basis: 90%;
+    height: 15%;
+    flex-grow: 5;
+}

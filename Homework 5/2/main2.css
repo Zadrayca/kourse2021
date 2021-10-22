@@ -1,0 +1,39 @@
+.father {
+    background: gray;
+    width: 800px;
+    height: 900px;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mother {
+    flex-basis: 65%;
+    flex-grow: 3;
+}
+.box{
+    margin: 20px;
+}
+.header {
+    flex-basis: 90%;
+    height: 16%;
+    background: #c60505;
+    flex-grow: 5;
+}
+.menu {
+    background: #16be09;
+    flex-basis: 15%;
+    height: 45%;
+    flex-grow: 2;
+}
+.post {
+    background: cornflowerblue;
+    height: 40%;
+    flex-basis: 60%;
+}
+.footer {
+    background: blue;
+    flex-basis: 90%;
+    height: 16%;
+    flex-grow: 5;
+}
