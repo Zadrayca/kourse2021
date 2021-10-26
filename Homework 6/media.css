@@ -1,0 +1,33 @@
+@media screen and (max-width: 375px) {
+    .soc-icon {
+        display: none;
+    }
+
+    .nav__button {
+        display: flex;
+    }
+
+    .products {
+        padding: 10px;
+    }
+
+    .products__list, .about__grid, .revievs__list {
+        flex-direction: column;
+    }
+
+    .about_card {
+        width: 100%;
+    }
+
+    .revievs {
+        padding: 50px;
+    }
+
+    .partners {
+        padding: 25px;
+    }
+
+    .footer__block {
+        width: 300px;
+    }
+}

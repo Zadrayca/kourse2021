@@ -1,0 +1,378 @@
+:root {
+    --blue: #0b2e41;
+    --aqua: #08c7ea;
+    --light: #cad7e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.soc-icon {
+    background-color: var(--aqua);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 25px;
+    column-gap: 5px;
+    list-style: none;
+}
+
+.soc-icon__link {
+    width: 25px;
+    height: 5px;
+    background-color: var(--blue);
+}
+
+.header {
+    background-color: var(--aqua);
+    color: #ffffff;
+}
+
+.header__top {
+    position: relative;
+    padding: 10px 0 20px;
+    background-color: var(--light);
+}
+.header__top_grid {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.header__logo {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: color .5s;
+    color: var(--blue);
+}
+.nav__item a:hover {
+    color: #fff;
+}
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    padding: 100px 0;
+}
+
+.header__text {
+    width: 80%;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.header__main button {
+    margin-top: 25px;
+    background-color: var(--blue);
+    width: 300px;
+    color: #ffffff;
+    border-radius: 20px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.products {
+    padding: 100px;
+    background-color: var(--light);
+}
+
+.products__title {
+    align-items: center;
+}
+
+.products_grid {
+    border: 1px solid  var(--aqua);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.products__list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.products__item {
+    flex-grow: 1;
+}
+.products__item p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.products__item_imag {
+    height: 200px;
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+.about {
+    background-color: var(--blue);
+    padding: 50px 0;
+}
+
+.about__grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_card {
+    width: 30%;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    color: #ffffff;
+    transition: all 0.3s;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.about_card:hover {
+    border-color: var(--aqua);
+}
+
+.about__name {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about__photo > div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: var(--light);
+}
+
+.revievs {
+    padding: 100px;
+    padding-top: 50px;
+    background-color: var(--light);
+}
+
+.revievs__title {
+    text-align: center;
+    padding: 30px;
+}
+
+.revievs__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.revievs__item {
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid var(--aqua);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.revievs__img {
+    background-color: var(--blue);
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.revievs__btn {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.revievs__btn_big {
+    width: 60px;
+    height: 10px;
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+.revievs__block_smoll_btn {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.revievs__btn_smoll {
+    width: 25px;
+    height: 10px;
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+.revievs__footer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--aqua);
+}
+
+.revievs__footer_btn_big {
+    width: 60px;
+    height: 25px;
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+.revievs__footer_block_btn_smoll {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.revievs__footer_btn_smoll {
+    width: 25px;
+    height: 25px;
+    background-color: var(--blue);
+    border-radius: 10px;
+}
+
+.partners {
+    padding: 100px;
+    padding-top: 50px;
+    background-color: var(--light);
+}
+
+.partners__grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.partners__card1{
+    flex-basis: 100%;
+    background-color: var(--blue);
+    padding: 30px;
+}
+
+.partners__card2{
+    flex-basis: 100%;
+    background-color: var(--aqua);
+    padding: 30px;
+}
+
+.partners__btn1 {
+    width: 100px;
+    height: 40px;
+    background-color: var(--aqua);
+    border-radius: 20px;
+}
+
+.partners__btn2 {
+    width: 100px;
+    height: 40px;
+    background-color: var(--blue);
+    border-radius: 20px;
+}
+
+.partners__text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--blue);
+}
+
+.footer__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.footer__box_btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.footer__btn {
+    width: 40px;
+    height: 40px;
+    background-color: var(--light);
+    border-radius: 10px;
+}
+
+.footer__block {
+    width: 500px;
+    height: 7px;
+    background-color: var(--light);
+    border-radius: 10px;
+}
+
+.nav__button {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: var(--aqua);
+    right: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__button span {
+    display: inline-block;
+    width: 80%;
+    height: 7px;
+    background-color: #fff;
+    position: relative;
+}
+
+.nav__button span::before, .nav__button span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: -12px;
+}
+
+.nav__button span::before {
+    top: 12px;
+}
+
+.nav__button span::after {
+    bottom: 12px;
+}
