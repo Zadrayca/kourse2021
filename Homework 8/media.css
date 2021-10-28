@@ -1,0 +1,55 @@
+@media screen and (max-width: 400px) {
+    .collapse {
+        display: none;
+    }
+
+    .header__contact {
+        display: none;
+    }
+
+    .navbar-brand img {
+        width: 50px;
+    }
+
+    .wrapper {
+        max-width: 340px;
+        padding: 0 10px;
+    }
+
+    .header__top {
+        padding-top: 20px;
+    }
+
+    .header__title {
+        text-align: center;
+    }
+
+    .header__title h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header__title h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__title p::before,
+    .header__title p::after {
+        display: none;
+    }
+
+    .header__intro {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 14px;
+    }
+
+    .nav__btn_mobile {
+        display: flex;
+    }
+
+    .container-fluid {
+        width: 300px;
+    }
+}
