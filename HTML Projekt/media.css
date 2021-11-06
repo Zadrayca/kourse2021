@@ -1,0 +1,333 @@
+@media screen and (max-width: 329px) {
+    .nav-item, .nav__text, .header__info_time, .header__info_place, .header__menu_client {
+        display: none;
+    }
+
+    .no_vision {
+        display: none;
+    }
+
+    .nav-item_more {
+        display: flex;
+    }
+
+    .header__info {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        column-gap: 32px;
+        margin-left: 13px;
+        margin-right: 17px;
+    }
+
+    .header__info_logo img {
+        width: 40px;
+        height: 47px;
+    }
+
+    .header__info_logo {
+        width: 135px;
+        height: 47px;
+    }
+
+    .logo__text h2 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 0px;
+    }
+
+    .logo__text p {
+        font-size: 10px;
+        line-height: 10px;
+        margin-bottom: 0px;
+    }
+
+    .header__info_wapp img{
+        width: 132px;
+        height: 18px;
+    }
+
+    .header__info_wapp {
+        width: 132px;
+        height: 18px;
+    }
+
+    .header__info_number {
+        width: 110px;
+        height: 30px;
+    }
+
+    .header__info_number h2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .header__info_number p {
+        font-size: 10px;
+        line-height: 12px;
+        color: #0F2438;
+    }
+
+    .catalog__btn_name {
+        display: none;
+    }
+
+    .catalog__btn {
+        width: 34px;
+        height: 34px;
+    }
+
+    .catalog__btn_btn {
+        display: flex;
+        width: 20px;
+        height: 13px;
+        flex-direction: column;
+        row-gap: 2px;
+        margin-left: 13px;
+    }
+
+    .catalog__btn_btn div {
+        height: 2px;
+        width: 20px;
+        background: #FFFFFF;
+        border-radius: 50px;
+    }
+
+    .header__menu_search {
+        margin-right: 17px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 270px;
+    }
+
+    .header__menu_search input {
+        font-size: 12px;
+        line-height: 14px;
+        padding-left: 10px;
+        width: 203px;
+        height: 34px;
+    }
+
+    .header__menu_search button {
+        width: 34px;
+        height: 34px;
+        background: #005BB9;
+        border-radius: 0px 6px 6px 0px;
+        border: none;
+    }
+
+    .search_btn {
+        display: none;
+    }
+
+    .search_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 10px;
+        justify-content: normal;
+        height: 34px;
+        width: 329px;
+    }
+
+    .header__menu_catalog {
+        margin-left: 13px;
+    }
+
+    .header {
+        height: 180px;
+    }
+
+    .main {
+        margin-top: 15px;
+    }
+
+    .main__box1_slider .carousel-control-prev-icon {
+        display: none;
+    }
+
+    .main__box1_slider .carousel-control-next-icon {
+        display: none;
+    }
+
+    .carousel-item_main_box {
+        width: 290px;
+        height: 195px;
+    }
+
+    .carousel-item1_box2 {
+        width: 131px;
+        height: 111px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .carousel-item1_box2 img {
+        width: 131px;
+        height: 111px;
+    }
+
+    .carousel-item1_box1 {
+        width: 144px;
+        height: 138px;
+        justify-content: normal;
+    }
+
+    .carousel-item1_box1_1 span {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .carousel-item1_box1_1 {
+        margin-bottom: 5px;
+    }
+
+    .carousel-item1_box1_2 span {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .carousel-item1_box1_2 {
+        margin-bottom: 15px;
+    }
+
+    .carousel-item1_box1_3 {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carousel-item1_box1_3 .box1_3_1 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .carousel-item1_box1_3 .box1_3_2 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .box_1_4_btn {
+        width: 124px;
+        height: 34px;
+    }
+
+    .box_1_4_btn span {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .carousel-item {
+        background-image: url("image/Mask Group333.png");
+    }
+
+    .main__box1_slider {
+        width: 290px;
+        height: 195px;
+    }
+
+    .main__box1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .box1_cards {
+        width: 300px;
+        height: 195px;
+    }
+
+    .cards_box_btn {
+        margin-left: 10px;
+    }
+
+    .main__box1_cards {
+        row-gap: 10px;
+    }
+
+    .box2_item_text {
+        max-width: 168px;
+        max-height: 124px;
+        margin-left: 20px;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+
+    .main__box4 {
+        justify-content: center;
+    }
+
+    .main__box3_menu {
+        justify-content: center;
+    }
+
+    .main__border {
+        width: 329px;
+    }
+
+    .news__main_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom {
+        background-color: #0C1A2A;
+        height: 1300px;
+    }
+
+    .bottom__main_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1300px;
+        padding-top: 36px;
+    }
+
+    .bottom_box_left {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .bottom_box_right {
+        display: flex;
+        flex-direction: column;
+        width: 329px;
+    }
+
+    .box_right_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+    }
+
+    .box_right {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+    }
+
+    .right_mid_box {
+        display: flex;
+        flex-direction: row;
+        margin-top: 23px;
+        margin-left: 10px;
+    }
+
+    .bottom_box_text {
+        margin-top: 0px;
+        background-color: #0C1A2A;
+    }
+}
