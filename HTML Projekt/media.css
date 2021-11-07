@@ -330,4 +330,23 @@
         margin-top: 0px;
         background-color: #0C1A2A;
     }
+
+    .right_bot_input button {
+        width: 104px;
+        height: 34px;
+    }
+
+    .right_bot_input input {
+        width: 186px;
+        height: 34px;
+
+    }
+
+    .right_bot_input {
+        justify-content: center;
+    }
+
+    .right_bot_links {
+        justify-content: flex-start;
+    }
 }
